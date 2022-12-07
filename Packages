@@ -26,3 +26,19 @@ Name: Old Package
 Author: Reposi3 <reposithree@gmail.com>
 Depiction: https://supermamon.github.io/Reposi3/depictions/?p=com.supermamon.oldpackage
 
+Package: com.mins.linhvuauto
+Version: 0.0.1-836+debug
+Architecture: iphoneos-arm
+Maintainer: Mins
+Depends: mobilesubstrate,me.autotouch.autotouch.ios8.inputtext,com.ienthach.xoainfo, com.rpetrich.actiwidget, com.rpetrich.rocketbootstrap, jetslammed, ws.hbang.common, zip, tar, unzip, gzip, unrar, p7zip
+Filename: C:/Users/Administrator/Documents/GitHub/repo/debs/com.mins.linhvuauto_0.0.1-836debug_iphoneos-arm.deb
+Size: 967776
+MD5sum: eea7f9d61807745e8752ef8d52aa4b5d
+SHA1: 2887e20faf738e46f86d059bb284950e9b8dc55a
+SHA256: e6e9dcce14f571c4fdae8a260be2dd954d2184a3d2a851172d33534ac04e5a45
+Section: System
+Description: An awesome tool of some sort!!
+Author: Mins
+Installed-Size: 6700
+Name: LinhVu
+Tag: role::hacker
