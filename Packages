@@ -5,7 +5,7 @@ Maintainer: BigBoss <bigboss@thebigboss.org>
 Depends: firmware (>= 11.0), mobilesubstrate (>= 0.9.5000)
 Conflicts: com.ioscreatix.silo
 Replaces: com.ioscreatix.silo
-Filename: C:/Users/Administrator/Documents/GitHub/repo/debs/ccsupport_1.3.4.deb
+Filename: ./debs/ccsupport_1.3.4.deb
 Size: 56738
 MD5sum: ddf3f3979b9805137900e3e40a550e45
 SHA1: 09fd4c6f58ba988892541b3ab8157f662fa9b3ba
@@ -29,7 +29,7 @@ Maintainer: CokePokes
 Depends: firmware (>= 11.0), mobilesubstrate
 Conflicts: com.unlimapps.uaupdatetools
 Replaces:
-Filename: C:/Users/Administrator/Documents/GitHub/repo/debs/com.cokepokes.appstoreplusplus_0.10.1-5_iphoneos-arm.deb
+Filename: ./debs/com.cokepokes.appstoreplusplus_0.10.1-5_iphoneos-arm.deb
 Size: 4636364
 MD5sum: 1439e142bcdec4582b9ac8bccc112e4a
 SHA1: c252051616bade4de9d2ccc3a1ea7e29882488c8
@@ -51,7 +51,7 @@ Maintainer: ichitaso <willfeeltips+ps11@gmail.com>
 Depends: mobilesubstrate, preferenceloader, com.opa334.ccsupport
 Conflicts: com.ichitaso.powerselector, com.dpkgdan.powertap, com.weesstt.powerdownoptions, com.subdiox.powertap2, com.rustybalboa.powertapxi
 Replaces: com.ichitaso.powerselector11
-Filename: C:/Users/Administrator/Documents/GitHub/repo/debs/com.ichitaso.powerselector11_1.3.2_iphoneos-arm.deb
+Filename: ./debs/com.ichitaso.powerselector11_1.3.2_iphoneos-arm.deb
 Size: 215644
 MD5sum: 993217fb63151e4971ec8e36cf0161b4
 SHA1: b9aa25e09562aa21f876b72de03c81d3f1be5212
@@ -74,7 +74,7 @@ Version: 2.12-8
 Architecture: iphoneos-arm
 Maintainer: Nguyen Quang Vu (ienthach) <ienthach87@gmail.com>
 Depends: firmware (>= 7.0), mobilesubstrate, com.rpetrich.rocketbootstrap, curl, openssh
-Filename: C:/Users/Administrator/Documents/GitHub/repo/debs/com.ienthach.xoainfo_2.12-8_iphoneos-arm.deb
+Filename: ./debs/com.ienthach.xoainfo_2.12-8_iphoneos-arm.deb
 Size: 5994924
 MD5sum: ee919cf3c952cc9aa626b04881e3f3b3
 SHA1: c20ae1d00ea97032e05718f86a7ad77cec7116d0
@@ -91,7 +91,7 @@ Version: 0.1
 Architecture: iphoneos-arm
 Maintainer: Ryan Petrich
 Depends: firmware (>= 5.0), mobilesubstrate, com.chpwn.weeloader, libactivator (>= 1.7.5~beta10)
-Filename: C:/Users/Administrator/Documents/GitHub/repo/debs/com.rpetrich.actiwidget_0.1_iphoneos-arm.deb
+Filename: ./debs/com.rpetrich.actiwidget_0.1_iphoneos-arm.deb
 Size: 7468
 MD5sum: 3ca41995283c895b2363068ea5ccf9a0
 SHA1: d132df169f96eb17fede69eda325855f9a4eb7fb
@@ -108,7 +108,7 @@ Architecture: iphoneos-arm
 Maintainer: Dev by KidsAuto Teams
 Depends: mobilesubstrate, ws.hbang.common, preferenceloader, com.conradkramer.open, com.rpetrich.rocketbootstrap, zip, unzip, openssh, rsync, jetslammed, socat, sudo, ws.hbang.repower, com.cydiageek.coysim, applist, com.kidsautopro.kidssupport, com.ienthach.XoaInfo, com.ichitaso.powerselector11, com.cokepokes.appstoreplusplus, libactivator, com.rpetrich.actiwidget, me.autotouch.AutoTouch.ios8.inputtext, net.kenhtao.icleanerpro
 Conflicts: com.kidsprivate.kidsrestore, com.kidsauto.sslkillswitch2, com.rbt.useragentchanger,com.autopear.installipa,com.kidsauto.locationchanger,com.kidsauto.kidsdaemon,com.kidsauto.kidsrestore,com.kidsauto.kidsdeviceinfo,ch.ringwald.hidsupport,jp.ashikase.mousesupport,com.kidsautopro.hookmob,com.kidsautopro.kidsauto (<= 10.0.0)
-Filename: C:/Users/Administrator/Documents/GitHub/repo/debs/KidsSetting_1.6.23.deb
+Filename: ./debs/KidsSetting_1.6.23.deb
 Size: 49070
 MD5sum: 915554919200f6e5ed20c5d33f022abf
 SHA1: bd96dd59a3a2050e8da8fe32bb334e838273097c
@@ -122,7 +122,7 @@ Package: com.kidsautopro.kidssupport
 Version: 1.11-10-2-1
 Architecture: iphoneos-arm
 Maintainer: KidsAuto Teams
-Filename: C:/Users/Administrator/Documents/GitHub/repo/debs/KidsSupport_1.11-10-2.deb
+Filename: ./debs/KidsSupport_1.11-10-2.deb
 Size: 1180664
 MD5sum: 37366f13d004156ae949f1e4b524b8b0
 SHA1: 2ad007258a987c8c0043f80fd0ab29740192ca7a
@@ -141,7 +141,7 @@ Architecture: iphoneos-arm
 Maintainer: Kent Krantz <kentkrantz@gmail.com>
 Depends: firmware (>= 8.0), mobilesubstrate, com.rpetrich.rocketbootstrap (>> 1.0.6)
 Conflicts: com.repo.xarold.com.autotouch8, repo.biteyourapple.net.autotouch8, repo.biteyourapple.net.autotouch, com.hackyouriphone.autotouch8
-Filename: C:/Users/Administrator/Documents/GitHub/repo/debs/me.autotouch.autotouch.ios8.inputtext_6.1.8-2k_iphoneos-arm.deb
+Filename: ./debs/me.autotouch.autotouch.ios8.inputtext_6.1.8-2k_iphoneos-arm.deb
 Size: 26461766
 MD5sum: c16716bbc1d4af016e5b7c30889574bf
 SHA1: 0ccc1a3d70b2b90435399e61a9f4225887c0f491
@@ -162,7 +162,7 @@ Maintainer: Kênh Táo
 Depends: firmware (>= 4.0), findutils, apt | apt7
 Conflicts: org.altervista.exilecom.icleaner, com.exile90.icleanerpro
 Replaces: org.altervista.exilecom.icleaner
-Filename: C:/Users/Administrator/Documents/GitHub/repo/debs/net.kenhtao.icleanerpro_7.9.1_iphoneos-arm.deb
+Filename: ./debs/net.kenhtao.icleanerpro_7.9.1_iphoneos-arm.deb
 Size: 4804842
 MD5sum: e238f15a7983a0c97ae5c0e674f12e17
 SHA1: 32f740e4a22f764bbffbdd6c3962dc2c17311fde
