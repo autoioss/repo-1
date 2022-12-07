@@ -1,3 +1,28 @@
+Package: com.cannathea.afc2d-arm64
+Version: 1.1.6-1
+Architecture: iphoneos-arm
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Depends: cy+cpu.arm64, mobilesubstrate, ldid
+Conflicts: com.saurik.afc2d, net.angelxwind.afc2d-arm64, com.mrmadtw.afc2forios11, repo.feng.afc2add11, us.scw.afctwoadd, net.angelxwind.afc2ios70, afc2.25pp, afc2.25pp7, afc2.91, app.taig.afc2
+Replaces: com.saurik.afc2d, net.angelxwind.afc2d-arm64, com.mrmadtw.afc2forios11, repo.feng.afc2add11, us.scw.afctwoadd, net.angelxwind.afc2ios70, afc2.25pp, afc2.25pp7, afc2.91, app.taig.afc2
+Filename: ./debs/afc2kppless_1.1.6-1.deb
+Size: 12788
+MD5sum: 5c2ee661c5f7e356ce518dc902ef1fb5
+SHA1: c8c574c1581d61675c05c7cc7c6c427231b3eaef
+SHA256: c0871d4c9c35190c83b4c73fa236668662f5d996eed1cb981395483c0cf2467a
+Section: System
+Description: Allow full file-system access over USB for all arm64 devices, especially useful for those on iOS 11 and above.
+Author: saurik, Cannathea <csupport@cannathea.com>
+Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=afc2kpplessDp
+Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=afc2kpplessDp
+Installed-Size: 539
+Name: Apple File Conduit "2" (iOS 11+, arm64)
+Pre-Depends: dpkg (>= 1.14.25-8)
+Provides: com.saurik.afc2d, net.angelxwind.afc2d-arm64, com.mrmadtw.afc2forios11, repo.feng.afc2add11, us.scw.afctwoadd, net.angelxwind.afc2ios70, afc2.25pp, afc2.25pp7, afc2.91, app.taig.afc2
+Sponsor: thebigboss.org <http://thebigboss.org>
+Tag: purpose::daemon
+dev: cannathea
+
 Package: com.opa334.ccsupport
 Version: 1.3.4
 Architecture: iphoneos-arm
@@ -85,6 +110,23 @@ Author: Nguyen Quang Vu (ienthach) <ienthach87@gmail.com>
 Depiction: http://XoaInfo.com/xoainfo/depiction/xoainfo.php
 Homepage: http://XoaInfo.com/
 Name: Xoa Info 2015
+
+Package: com.mins.linhvuauto
+Version: 0.0.1-836+debug
+Architecture: iphoneos-arm
+Maintainer: Mins
+Depends: mobilesubstrate,me.autotouch.autotouch.ios8.inputtext,com.ienthach.xoainfo, com.rpetrich.actiwidget, com.rpetrich.rocketbootstrap, jetslammed, ws.hbang.common, zip, tar, unzip, gzip, unrar, p7zip
+Filename: ./debs/com.mins.linhvuauto_0.0.1-836debug_iphoneos-arm.deb
+Size: 967776
+MD5sum: eea7f9d61807745e8752ef8d52aa4b5d
+SHA1: 2887e20faf738e46f86d059bb284950e9b8dc55a
+SHA256: e6e9dcce14f571c4fdae8a260be2dd954d2184a3d2a851172d33534ac04e5a45
+Section: System
+Description: An awesome tool of some sort!!
+Author: Mins
+Installed-Size: 6700
+Name: LinhVu
+Tag: role::hacker
 
 Package: com.rpetrich.actiwidget
 Version: 0.1
@@ -175,3 +217,20 @@ Homepage: http://ib-soft.net/depictions/?pkgId=com.exile90.icleanerpro
 Icon: file:///Applications/Cydia.app/Sections/tienich.png
 Name: iCleaner Pro VN
 Sileodepiction: http://kenhtao.net/sileo-depiction/net.kenhtao.icleanerpro
+
+Package: com.mins.ttweak
+Version: 0.0.1-345+debug
+Architecture: iphoneos-arm
+Maintainer: Mins
+Depends: mobilesubstrate, com.rpetrich.rocketbootstrap, jetslammed, ws.hbang.common, zip, tar, unzip, gzip, unrar, p7zip, openssh, curl,applist
+Filename: ./debs/ttweak_hook_settings.deb
+Size: 1151920
+MD5sum: fae808a9fd8ac0ae26e08975484683ff
+SHA1: 1f774d4a87101ee9747e2e969d89b9bd6edccaf4
+SHA256: f3f8272c9b7621a2351661e20b52a35d432615665636cae2b8b91b58c4ba8af4
+Section: System
+Description: An awesome tool of some sort!!
+Author: Mins
+Installed-Size: 5564
+Name: TTweak
+Tag: role::hacker
