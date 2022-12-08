@@ -148,7 +148,7 @@ Package: com.kidsautopro.kidsautosetting
 Version: 1.6.23
 Architecture: iphoneos-arm
 Maintainer: Dev by KidsAuto Teams
-Depends: mobilesubstrate, ws.hbang.common, preferenceloader, com.conradkramer.open, com.rpetrich.rocketbootstrap, zip, tar, unzip, gzip, unrar, p7zip, openssh, curl,applist, openssh, rsync, jetslammed, socat, sudo, ws.hbang.repower, com.cydiageek.coysim, applist, com.kidsautopro.kidssupport, com.cokepokes.appstoreplusplus, libactivator, com.rpetrich.actiwidget, net.kenhtao.icleanerpro
+Depends: mobilesubstrate, ws.hbang.common, preferenceloader, com.conradkramer.open, com.rpetrich.rocketbootstrap, zip, tar, unzip, gzip, unrar, curl, openssh,p7zip, openssh, curl,applist, openssh, rsync, jetslammed, socat, sudo, ws.hbang.repower, com.cydiageek.coysim, applist, com.kidsautopro.kidssupport, com.cokepokes.appstoreplusplus, libactivator, com.rpetrich.actiwidget, net.kenhtao.icleanerpro
 Conflicts: com.kidsprivate.kidsrestore, com.kidsauto.sslkillswitch2, com.rbt.useragentchanger,com.autopear.installipa,com.kidsauto.locationchanger,com.kidsauto.kidsdaemon,com.kidsauto.kidsrestore,com.kidsauto.kidsdeviceinfo,ch.ringwald.hidsupport,jp.ashikase.mousesupport,com.kidsautopro.hookmob,com.kidsautopro.kidsauto (<= 10.0.0)
 Filename: ./debs/KidsSetting_1.6.23.deb
 Size: 49014
