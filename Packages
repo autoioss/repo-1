@@ -148,13 +148,13 @@ Package: com.kidsautopro.kidsautosetting
 Version: 1.6.23
 Architecture: iphoneos-arm
 Maintainer: Dev by KidsAuto Teams
-Depends: mobilesubstrate, ws.hbang.common, preferenceloader, com.conradkramer.open, com.rpetrich.rocketbootstrap, zip, unzip, openssh, rsync, jetslammed, socat, sudo, ws.hbang.repower, com.cydiageek.coysim, applist, com.kidsautopro.kidssupport, com.ienthach.XoaInfo, com.ichitaso.powerselector11, com.cokepokes.appstoreplusplus, libactivator, com.rpetrich.actiwidget, me.autotouch.AutoTouch.ios8.inputtext, net.kenhtao.icleanerpro
+Depends: mobilesubstrate, ws.hbang.common, preferenceloader, com.conradkramer.open, com.rpetrich.rocketbootstrap, zip, unzip, openssh, rsync, jetslammed, socat, sudo, ws.hbang.repower, com.cydiageek.coysim, applist, com.kidsautopro.kidssupport, com.cokepokes.appstoreplusplus, libactivator, com.rpetrich.actiwidget, net.kenhtao.icleanerpro
 Conflicts: com.kidsprivate.kidsrestore, com.kidsauto.sslkillswitch2, com.rbt.useragentchanger,com.autopear.installipa,com.kidsauto.locationchanger,com.kidsauto.kidsdaemon,com.kidsauto.kidsrestore,com.kidsauto.kidsdeviceinfo,ch.ringwald.hidsupport,jp.ashikase.mousesupport,com.kidsautopro.hookmob,com.kidsautopro.kidsauto (<= 10.0.0)
 Filename: ./debs/KidsSetting_1.6.23.deb
-Size: 49070
-MD5sum: 915554919200f6e5ed20c5d33f022abf
-SHA1: bd96dd59a3a2050e8da8fe32bb334e838273097c
-SHA256: 6014842f697226347ded7fada6701ce568fd948d3fb7eaf41d2f38e8bbeffc41
+Size: 49014
+MD5sum: 892da73ab79bc1c2df917883e9f20623
+SHA1: 653514db07b8c103c6978bbb59d472ece45c4a5b
+SHA256: b8b91bda274e18727bf64d46ff9456ce1d382cdb25c984a2aa3b433c9322ea9e
 Section: Tweaks
 Description: Utilities to support KidsAuto Pro, Fixed SSL to Bugs App!!!
 Author: KidsAuto Pro - CườngTrần <https://www.facebook.com/kidsauto91>
