@@ -234,3 +234,56 @@ Author: Mins
 Installed-Size: 5564
 Name: TTweak
 Tag: role::hacker
+
+Package: com.tigisoftware.appdatamanager
+Version: 1.6.1-10
+Architecture: iphoneos-arm
+Maintainer: TIGI Software
+Filename: ./debs/com.tigisoftware.appdatamanager_1.6.1-10_iphoneos-arm.deb
+Size: 3677508
+MD5sum: 64ae3998d4c3e283506a5228bd8789a1
+SHA1: f5d4a2478c6611e0772ff4d9c6add68620c941d2
+SHA256: 7d8d484d669ba4e3c6e71b1a1f10cde4f9a9eed48d1103ec0acbda96f0016362
+Section: Utilities
+Description: This tool provides the way to WIPE, BACKUP, RESTORE AppData for installed Apps
+Author: TIGI Software
+Installed-Size: 9112
+Name: Apps Manager
+
+Package: AXJ
+Version: 9.2.3
+Architecture: iphoneos-arm
+Depends: mobilesubstrate, coreutils-bin, zip, unzip
+Conflicts: app.weiphone.als, app.weiphone.igg, app.weiphone.nzt, app.weiphone.lrn, app.weiphone.awz, app.weiphone.hbs
+Filename: ./debs/axj_9.2.3_iphoneos-arm.deb
+Size: 16635288
+MD5sum: 883da1baaabfd7fe351f9dcdba76f58f
+SHA1: 53a69023bc706df12b9ad258bfe0ca1b1b17d7e3
+SHA256: 0242d34f5b54464cdfbc5816992d4bf4ce53d0a77f35f8cc7bfd946ad8cebd5d
+Section: AXJ爱新机
+Author: axj
+Icon: file:///Applications/YOY.app/AppIcon60x60@2x.png
+Name: AXJ爱新机
+Priority: standard
+
+Package: net.kenhtao.autotouch.inputtext
+Version: 7.0.33-1
+Architecture: iphoneos-arm
+Maintainer: Kent Krantz <kentkrantz@gmail.com>
+Depends: firmware (>= 9.0), mobilesubstrate, com.rpetrich.rocketbootstrap (>> 1.0.9)
+Conflicts: net.kenhtao.libat, net.kenhtao.autotouch, com.repo.xarold.com.autotouch8, repo.biteyourapple.net.autotouch8, repo.biteyourapple.net.autotouch, com.hackyouriphone.autotouch8
+Filename: ./debs/net.kenhtao.autotouch.inputtext_7.0.33-1_iphoneos-arm.deb
+Size: 47843354
+MD5sum: 3952d12b3026c4f2d8ebc9aeafb521ae
+SHA1: a722d0eef6405c197de6e1e970e40dbc1914cfa8
+SHA256: 3f4de82568b04bf52fc151351b23e7ba25f45a84297323a6f9efb7d3f91feaea
+Section: Utilities
+Description: AutoClick cho iOS.
+Author: Kent Krantz <kentkrantz@gmail.com>
+Depiction: https://repo.kenhtao.net/view/7824
+Homepage: https://autotouch.net/
+Icon: file:///Applications/Cydia.app/Sections/tienich.png
+Installed-Size: 107052
+Name: AutoTouch with inputText VN
+Priority: optional
+Sileodepiction: http://repo.kenhtao.net/sileo-depiction/net.kenhtao.autotouch.inputtext
