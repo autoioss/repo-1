@@ -1,29 +1,4 @@
-﻿Package: com.cannathea.afc2d-arm64
-Version: 1.1.6-1
-Architecture: iphoneos-arm
-Maintainer: BigBoss <bigboss@thebigboss.org>
-Depends: cy+cpu.arm64, mobilesubstrate, ldid
-Conflicts: com.saurik.afc2d, net.angelxwind.afc2d-arm64, com.mrmadtw.afc2forios11, repo.feng.afc2add11, us.scw.afctwoadd, net.angelxwind.afc2ios70, afc2.25pp, afc2.25pp7, afc2.91, app.taig.afc2
-Replaces: com.saurik.afc2d, net.angelxwind.afc2d-arm64, com.mrmadtw.afc2forios11, repo.feng.afc2add11, us.scw.afctwoadd, net.angelxwind.afc2ios70, afc2.25pp, afc2.25pp7, afc2.91, app.taig.afc2
-Filename: ./debs/afc2kppless_1.1.6-1.deb
-Size: 12788
-MD5sum: 5c2ee661c5f7e356ce518dc902ef1fb5
-SHA1: c8c574c1581d61675c05c7cc7c6c427231b3eaef
-SHA256: c0871d4c9c35190c83b4c73fa236668662f5d996eed1cb981395483c0cf2467a
-Section: System
-Description: Allow full file-system access over USB for all arm64 devices, especially useful for those on iOS 11 and above.
-Author: saurik, Cannathea <csupport@cannathea.com>
-Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=afc2kpplessDp
-Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=afc2kpplessDp
-Installed-Size: 539
-Name: Apple File Conduit "2" (iOS 11+, arm64)
-Pre-Depends: dpkg (>= 1.14.25-8)
-Provides: com.saurik.afc2d, net.angelxwind.afc2d-arm64, com.mrmadtw.afc2forios11, repo.feng.afc2add11, us.scw.afctwoadd, net.angelxwind.afc2ios70, afc2.25pp, afc2.25pp7, afc2.91, app.taig.afc2
-Sponsor: thebigboss.org <http://thebigboss.org>
-Tag: purpose::daemon
-dev: cannathea
-
-Package: AXJ
+﻿Package: AXJ
 Version: 9.2.3
 Architecture: iphoneos-arm
 Depends: mobilesubstrate, coreutils-bin, zip, unzip
@@ -232,10 +207,10 @@ Maintainer: Kent Krantz <kentkrantz@gmail.com>
 Depends: firmware (>= 8.0), mobilesubstrate, com.rpetrich.rocketbootstrap (>> 1.0.6)
 Conflicts: com.repo.xarold.com.autotouch8, repo.biteyourapple.net.autotouch8, repo.biteyourapple.net.autotouch, com.hackyouriphone.autotouch8
 Filename: ./debs/me.autotouch.AutoTouch.ios8.inputtext_6.1.8-2k_iphoneos-arm.deb
-Size: 44502076
-MD5sum: f69a194d27429b618c99fa23f5566af5
-SHA1: f400c9612625e8e439a3b3d8298e96395e4abd3d
-SHA256: f2861c24a055dbda35845b46e2ae35b12a230d3a5539c86ea29f6341d0ff13df
+Size: 26461766
+MD5sum: c16716bbc1d4af016e5b7c30889574bf
+SHA1: 0ccc1a3d70b2b90435399e61a9f4225887c0f491
+SHA256: 036ad48a13cc51ae64da2eb108b7dd7cd25ccbcc70c41b06efbc983d6dac168c
 Section: Utilities
 Description: Record and playback touch operations, play macro scripts automatically.
 Author: Kent Krantz <kentkrantz@gmail.com>
