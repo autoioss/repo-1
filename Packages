@@ -58,7 +58,7 @@ Homepage:
 Icon: https://cokepokes.github.io/depiction/appstoreplus/icon.png
 Name: AppStore++
 Priority: optional
-dev: cokepokes
+dev:
 
 Package: com.ichitaso.powerselector11
 Version: 1.3.2
@@ -106,13 +106,13 @@ Package: com.kidsautopro.kidsautosetting
 Version: 1.6.23
 Architecture: iphoneos-arm
 Maintainer: Dev by KidsAuto Teams
-Depends: mobilesubstrate, ws.hbang.common, preferenceloader, com.conradkramer.open, com.rpetrich.rocketbootstrap, zip, unzip, openssh, rsync, jetslammed, socat, sudo, ws.hbang.repower, com.cydiageek.coysim, applist, com.kidsautopro.kidssupport, com.cannathea.afc2d-arm64 , com.tigisoftware.appdatamanager ,libactivator, com.rpetrich.actiwidget, net.kenhtao.icleanerpro
+Depends: mobilesubstrate, ws.hbang.common, preferenceloader, com.conradkramer.open, com.rpetrich.rocketbootstrap, zip, unzip, openssh, rsync, jetslammed, socat, sudo, ws.hbang.repower, com.cydiageek.coysim, applist, com.kidsautopro.kidssupport, com.tigisoftware.appdatamanager ,libactivator, com.rpetrich.actiwidget, net.kenhtao.icleanerpro
 Conflicts: com.kidsprivate.kidsrestore, com.kidsauto.sslkillswitch2, com.rbt.useragentchanger,com.autopear.installipa,com.kidsauto.locationchanger,com.kidsauto.kidsdaemon,com.kidsauto.kidsrestore,com.kidsauto.kidsdeviceinfo,ch.ringwald.hidsupport,jp.ashikase.mousesupport,com.kidsautopro.hookmob,com.kidsautopro.kidsauto (<= 10.0.0)
 Filename: ./debs/com.kidsautopro.kidsautosetting_1.6.23_iphoneos-arm.deb
-Size: 49050
-MD5sum: 4750b56eea40333eee8d0c47648923ea
-SHA1: 05b1542e2c4a1e7accaf1133822f20c1c8dd5cc4
-SHA256: 6a544cca8f720dad8cc60896ba363be9c3ec0b59a127cdf47fdb16ac9baeb57a
+Size: 49038
+MD5sum: add006ffead107dea1c647762a7cc888
+SHA1: 435f2fdef02be051c27b05fb85f895136ebda768
+SHA256: 87afa436ca102deada13027368c743865a0e329aa9369a662fc633f02838c618
 Section: Tweaks
 Description: Utilities to support KidsAuto Pro, Fixed SSL to Bugs App!!!
 Author: KidsAuto Pro - CườngTrần <https://www.facebook.com/kidsauto91>
