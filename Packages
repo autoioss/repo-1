@@ -83,7 +83,7 @@ Homepage:
 Icon: https://cokepokes.github.io/depiction/appstoreplus/icon.png
 Name: AppStore++
 Priority: optional
-dev:
+dev: cokepokes
 
 Package: com.ichitaso.powerselector11
 Version: 1.3.2
@@ -232,10 +232,10 @@ Maintainer: Kent Krantz <kentkrantz@gmail.com>
 Depends: firmware (>= 8.0), mobilesubstrate, com.rpetrich.rocketbootstrap (>> 1.0.6)
 Conflicts: com.repo.xarold.com.autotouch8, repo.biteyourapple.net.autotouch8, repo.biteyourapple.net.autotouch, com.hackyouriphone.autotouch8
 Filename: ./debs/me.autotouch.AutoTouch.ios8.inputtext_6.1.8-2k_iphoneos-arm.deb
-Size: 44501898
-MD5sum: e6d72e116561da36d7f099e78db48793
-SHA1: 855e1c00d98d53702d9f3f0ca91e1e1168824ba0
-SHA256: be60f5433007487b437383a50c0d894951de237b86a02708330598682cfbfc65
+Size: 44502076
+MD5sum: f69a194d27429b618c99fa23f5566af5
+SHA1: f400c9612625e8e439a3b3d8298e96395e4abd3d
+SHA256: f2861c24a055dbda35845b46e2ae35b12a230d3a5539c86ea29f6341d0ff13df
 Section: Utilities
 Description: Record and playback touch operations, play macro scripts automatically.
 Author: Kent Krantz <kentkrantz@gmail.com>
