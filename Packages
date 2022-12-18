@@ -1,4 +1,4 @@
-﻿Package: AXJ
+Package: AXJ
 Version: 9.2.3
 Architecture: iphoneos-arm
 Depends: mobilesubstrate, coreutils-bin, zip, unzip
