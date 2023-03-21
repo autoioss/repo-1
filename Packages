@@ -1,4 +1,4 @@
-Package: ai.akemi.appsyncunified
+﻿Package: ai.akemi.appsyncunified
 Version: 108.0
 Architecture: iphoneos-arm
 Maintainer: Karen/あけみ <karen@akemi.ai>
@@ -127,13 +127,13 @@ Package: com.kidsautopro.kidsautosetting
 Version: 1.6.23
 Architecture: iphoneos-arm
 Maintainer: Dev by KidsAuto Teams
-Depends: mobilesubstrate, ws.hbang.common, preferenceloader, com.conradkramer.open, com.rpetrich.rocketbootstrap, zip, unzip, openssh, rsync, jetslammed, socat, sudo, ws.hbang.repower, com.cydiageek.coysim, applist, com.kidsautopro.kidssupport ,libactivator, com.rpetrich.actiwidget, net.kenhtao.icleanerpro
+Depends: mobilesubstrate, ws.hbang.common, preferenceloader, com.conradkramer.open, com.rpetrich.rocketbootstrap, zip, unzip, openssh, rsync, jetslammed, socat, sudo, ws.hbang.repower, com.cydiageek.coysim, applist, com.kidsautopro.kidssupport, net.kenhtao.killx, net.kenhtao.callblocker, net.kenhtao.appdatamanager, libactivator, com.rpetrich.actiwidget, net.kenhtao.icleanerpro
 Conflicts: com.kidsprivate.kidsrestore, com.kidsauto.sslkillswitch2, com.rbt.useragentchanger,com.autopear.installipa,com.kidsauto.locationchanger,com.kidsauto.kidsdaemon,com.kidsauto.kidsrestore,com.kidsauto.kidsdeviceinfo,ch.ringwald.hidsupport,jp.ashikase.mousesupport,com.kidsautopro.hookmob,com.kidsautopro.kidsauto (<= 10.0.0)
 Filename: ./debs/com.kidsautopro.kidsautosetting_1.6.23_iphoneos-arm.deb
-Size: 49038
-MD5sum: add006ffead107dea1c647762a7cc888
-SHA1: 435f2fdef02be051c27b05fb85f895136ebda768
-SHA256: 87afa436ca102deada13027368c743865a0e329aa9369a662fc633f02838c618
+Size: 49040
+MD5sum: 372a0fc588cfeb2162fa7211f58954bf
+SHA1: 0af9b9e5f4494d9253cccd37cac97aa70020f946
+SHA256: 6ef46e202b980066d641aeeb810d75eb9480c7efc66cadf25926e95818f18bd6
 Section: Tweaks
 Description: Utilities to support KidsAuto Pro, Fixed SSL to Bugs App!!!
 Author: KidsAuto Pro - CườngTrần <https://www.facebook.com/kidsauto91>
