@@ -1,3 +1,24 @@
+﻿Package: ai.akemi.appsyncunified
+Version: 108.0
+Architecture: iphoneos-arm
+Maintainer: Karen/あけみ <karen@akemi.ai>
+Depends: firmware (>= 5.0), mobilesubstrate (>= 0.9.5100), firmware (<= 16.3)
+Conflicts: us.hackulo.appsync50, us.hackulo.appsync50plus, com.hackyouriphone.appsync7, com.teiron.ppsync, appsync50plus2.25pp, com.linusyang.appsync, com.sull.appsyncunified, com.sull.appsyncunifiedbeta, com.xsellize.appsync50, com.xsellize.appsync50plus, appsync50plus.178, appsync50plus2.178, cydia.net.angelxwind.appsyncunified, com.ifucker.appsync, com.sexyphonetech.appsyncunified, appsyncunifiedofficial, org.digbick.asufixed, cn.mingmei.asu623517234615234813, technology.goated.appsync, technology.goated.appsyncunified, vaginalfisting.appsynctool, science.xnu.substitute
+Replaces: us.hackulo.appsync50, net.angelxwind.appsyncunified
+Filename: ./debs/ai.akemi.appsyncunified_108.0_iphoneos-arm.deb
+Size: 738484
+MD5sum: 13bfe739c878bbcfa8d90cc9041b5c03
+SHA1: 096fb31a1254d5bf86556691b67293eccdda0814
+SHA256: f8cc4342a8ecaf2a20385673d71cec38f71ab6e5c308a5905dfc50d9be089f90
+Section: Tweaks
+Description: Enables the ability to install unsigned/fakesigned iOS applications.
+Author: Karen/あけみ, Linus Yang <karen@akemi.ai>
+Depiction: https://cydia.akemi.ai/?page/ai.akemi.appsyncunified
+Homepage: https://cydia.akemi.ai/
+Installed-Size: 700
+Name: AppSync Unified
+Provides: appsync, net.angelxwind.appsyncunified
+
 Package: AXJ
 Version: 9.2.3
 Architecture: iphoneos-arm
@@ -106,7 +127,7 @@ Package: com.kidsautopro.kidsautosetting
 Version: 1.6.23
 Architecture: iphoneos-arm
 Maintainer: Dev by KidsAuto Teams
-Depends: mobilesubstrate, ws.hbang.common, preferenceloader, com.conradkramer.open, com.rpetrich.rocketbootstrap, zip, unzip, openssh, rsync, jetslammed, socat, sudo, ws.hbang.repower, com.cydiageek.coysim, applist, com.kidsautopro.kidssupport, com.tigisoftware.appdatamanager ,libactivator, com.rpetrich.actiwidget, net.kenhtao.icleanerpro
+Depends: mobilesubstrate, ws.hbang.common, preferenceloader, com.conradkramer.open, com.rpetrich.rocketbootstrap, zip, unzip, openssh, rsync, jetslammed, socat, sudo, ws.hbang.repower, com.cydiageek.coysim, applist, com.kidsautopro.kidssupport, net.kenhtao.appdatamanager ,libactivator, com.rpetrich.actiwidget, net.kenhtao.icleanerpro
 Conflicts: com.kidsprivate.kidsrestore, com.kidsauto.sslkillswitch2, com.rbt.useragentchanger,com.autopear.installipa,com.kidsauto.locationchanger,com.kidsauto.kidsdaemon,com.kidsauto.kidsrestore,com.kidsauto.kidsdeviceinfo,ch.ringwald.hidsupport,jp.ashikase.mousesupport,com.kidsautopro.hookmob,com.kidsautopro.kidsauto (<= 10.0.0)
 Filename: ./debs/com.kidsautopro.kidsautosetting_1.6.23_iphoneos-arm.deb
 Size: 49038
@@ -168,21 +189,6 @@ Depiction: https://shiftcmdk.github.io/repo/depictions/?p=com.shiftcmdk.autoaler
 Installed-Size: 424
 Name: AutoAlerts
 
-Package: com.tigisoftware.appdatamanager
-Version: 1.6.1-11
-Architecture: iphoneos-arm
-Maintainer: TIGI Software
-Filename: ./debs/com.tigisoftware.appdatamanager_1.6.1-10_iphoneos-arm.deb
-Size: 3663930
-MD5sum: f88c0b9acd0aa042ed7a5d4ce56d8ce2
-SHA1: 69b29265c2e1eaa1b7a19069c2feade7e07ccd20
-SHA256: 67053e141f90a6330487a341ef6d6a397c5d8a95c70a6eb8bde0af1ae2d40ad9
-Section: Utilities
-Description: This tool provides the way to WIPE, BACKUP, RESTORE AppData for installed Apps
-Author: TIGI Software
-Installed-Size: 9024
-Name: Apps Manager
-
 Package: com.kidsautopro.kidssupport
 Version: 1.11-10-2-1
 Architecture: iphoneos-arm
@@ -220,6 +226,25 @@ Installed-Size: 100716
 Name: AutoTouch with inputText
 Priority: optional
 
+Package: net.kenhtao.appdatamanager
+Version: 1.6.1-11
+Architecture: iphoneos-arm
+Maintainer: Kênh Táo
+Filename: ./debs/net.kenhtao.appdatamanager_1.6.1-11_iphoneos-arm.deb
+Size: 2531260
+MD5sum: 33602027bd268aae0a7cb03d176cc1e3
+SHA1: 777cb5fcb347772c6e69aabfc64f83aa634fe853
+SHA256: cd6156ddb0d67f4fe68d519047fb8590d62056c292e79922dcb3ef4d63c0e38a
+Section: Utilities
+Description: Trình quản lý dữ liệu cho các ứng dụng trên iOS.
+Author: TIGI Software
+Depiction: https://repo.kenhtao.net/view/8116
+Homepage: http://cydia.saurik.com/package/com.tigisoftware.appdatamanager/
+Icon: file:///Applications/Cydia.app/Sections/tienich.png
+Installed-Size: 9112
+Name: Apps Manager VN
+Sileodepiction: http://repo.kenhtao.net/sileo-depiction/net.kenhtao.appdatamanager
+
 Package: net.kenhtao.autotouch.inputtext
 Version: 7.0.33-1
 Architecture: iphoneos-arm
@@ -242,6 +267,25 @@ Name: AutoTouch with inputText VN
 Priority: optional
 Sileodepiction: http://repo.kenhtao.net/sileo-depiction/net.kenhtao.autotouch.inputtext
 
+Package: net.kenhtao.callblocker
+Version: 2.0.3
+Architecture: iphoneos-arm
+Maintainer: Kênh Táo
+Depends: mobilesubstrate, preferenceloader
+Filename: ./debs/net.kenhtao.callblocker_2.0.3_iphoneos-arm.deb
+Size: 79282
+MD5sum: ee5aa2631f6610c699f330aa5ce4e6f5
+SHA1: 5248cde75c8c78ea6882437e2a562dc7d5caa335
+SHA256: e6732e2b5ce0da774b48857db282d6377aa9786e69f9308ea27b916d00197246
+Section: Security
+Description: Chặn cuộc gọi nâng cao hơn.
+Author: P2KDev <p2kdev@gmail.com>
+Depiction: https://repo.kenhtao.net/view/2540
+Icon: file:///Applications/Cydia.app/Sections/security.png
+Installed-Size: 512
+Name: CallBlocker VN
+Sileodepiction: http://kenhtao.net/sileo-depiction/net.kenhtao.callblocker
+
 Package: net.kenhtao.icleanerpro
 Version: 7.9.1
 Architecture: iphoneos-arm
@@ -262,6 +306,26 @@ Homepage: http://ib-soft.net/depictions/?pkgId=com.exile90.icleanerpro
 Icon: file:///Applications/Cydia.app/Sections/tienich.png
 Name: iCleaner Pro VN
 Sileodepiction: http://kenhtao.net/sileo-depiction/net.kenhtao.icleanerpro
+
+Package: net.kenhtao.killx
+Version: 3.0.2
+Architecture: iphoneos-arm
+Maintainer: Kênh Táo
+Depends: mobilesubstrate, preferenceloader, applist, firmware (>= 13.0)
+Conflicts: com.cemck.killx
+Filename: ./debs/net.kenhtao.killx_3.0.2_iphoneos-arm.deb
+Size: 274264
+MD5sum: 53d3eb8aef988331999b9a824acc5a35
+SHA1: eb610930eb4dcbbe7875e953a1f7c1c40afd297a
+SHA256: c70b31ed4139490dace32597b55fa3db4759b1fd35d8598e81a2e666712e066f
+Section: Tweaks
+Description: Vuốt xuống thẻ trong Đa nhiệm để đóng toàn bộ.
+Author: Cem K
+Depiction: https://repo.kenhtao.net/view/6831
+Icon: file:///Applications/Cydia.app/Sections/tinhchinh.png
+Installed-Size: 984
+Name: KillX Pro VN
+Sileodepiction: http://repo.kenhtao.net/sileo-depiction/net.kenhtao.killx
 
 Package: com.mins.ttweak
 Version: 0.0.1-345+debug
