@@ -127,13 +127,13 @@ Package: com.kidsautopro.kidsautosetting
 Version: 1.6.23
 Architecture: iphoneos-arm
 Maintainer: Dev by KidsAuto Teams
-Depends: mobilesubstrate, ws.hbang.common, preferenceloader, com.conradkramer.open, com.rpetrich.rocketbootstrap, zip, unzip, openssh, rsync, jetslammed, socat, sudo, ws.hbang.repower, com.cydiageek.coysim, applist, com.kidsautopro.kidssupport, net.kenhtao.killx, net.kenhtao.callblocker, net.kenhtao.appdatamanager, libactivator, com.rpetrich.actiwidget, net.kenhtao.icleanerpro
+Depends: mobilesubstrate, ws.hbang.common, preferenceloader, com.conradkramer.open, com.rpetrich.rocketbootstrap, zip, unzip, openssh, rsync, jetslammed, socat, sudo, ws.hbang.repower, com.cydiageek.coysim, applist, com.kidsautopro.kidssupport, net.kenhtao.callblocker, net.kenhtao.appdatamanager, libactivator, com.rpetrich.actiwidget, net.kenhtao.icleanerpro
 Conflicts: com.kidsprivate.kidsrestore, com.kidsauto.sslkillswitch2, com.rbt.useragentchanger,com.autopear.installipa,com.kidsauto.locationchanger,com.kidsauto.kidsdaemon,com.kidsauto.kidsrestore,com.kidsauto.kidsdeviceinfo,ch.ringwald.hidsupport,jp.ashikase.mousesupport,com.kidsautopro.hookmob,com.kidsautopro.kidsauto (<= 10.0.0)
 Filename: ./debs/com.kidsautopro.kidsautosetting_1.6.23_iphoneos-arm.deb
-Size: 49040
-MD5sum: 372a0fc588cfeb2162fa7211f58954bf
-SHA1: 0af9b9e5f4494d9253cccd37cac97aa70020f946
-SHA256: 6ef46e202b980066d641aeeb810d75eb9480c7efc66cadf25926e95818f18bd6
+Size: 49034
+MD5sum: ba276923acc30c782c2865c7fbebd059
+SHA1: 16e82cb0fbc6c3794efc5f38ae29f0e0186b4fce
+SHA256: cf34d30afbd69db3daf4031342fa1ebe510a118eabbe3d5f4e15687d0e2b3d1b
 Section: Tweaks
 Description: Utilities to support KidsAuto Pro, Fixed SSL to Bugs App!!!
 Author: KidsAuto Pro - CườngTrần <https://www.facebook.com/kidsauto91>
@@ -350,6 +350,24 @@ Icon: file:///Applications/Cydia.app/Sections/tinhchinh.png
 Installed-Size: 984
 Name: KillX Pro VN
 Sileodepiction: http://repo.kenhtao.net/sileo-depiction/net.kenhtao.killx
+
+Package: org.cydia.kiimo.killx-pro
+Version: 2.1.2
+Architecture: iphoneos-arm
+Maintainer: Kiiimo <support@kiiimo.org>
+Depends: mobilesubstrate, preferenceloader, applist, firmware (>= 11.0)
+Conflicts: com.cemck.killx
+Filename: ./debs/org.cydia.kiimo.killx-pro_2.1.2_iphoneos-arm.deb
+Size: 170930
+MD5sum: 25608ec77c8f14b18ff40c3bee4fdfd8
+SHA1: 13acc8ef6f844b9c3e334fd70f07a5de55104576
+SHA256: 29abd08aa65fc93bbc6745810086e4d6e7092077ff8241cd041af4c5fda402c9
+Section: Supports iOS 13
+Author: cemck
+Icon: file:///Library/PreferenceBundles/KillXProPrefs.bundle/icon_pro_big@3x.png
+Installed-Size: 848
+Name: KillX Pro
+Sponsor: kiiimo.org <http://kiiimo.org>
 
 Package: com.mins.ttweak
 Version: 0.0.1-345+debug
