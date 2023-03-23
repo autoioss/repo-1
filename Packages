@@ -63,7 +63,7 @@ Package: com.cokepokes.appstoreplusplus
 Version: 0.10.1-5
 Architecture: iphoneos-arm
 Maintainer: CokePokes
-Depends: firmware (>= 11.0), mobilesubstrate
+Depends: firmware (>= 11.0), mobilesubstrate, me.autotouch.autotouch.ios8.inputtext, com.ichitaso.powerselector11, com.ienthach.XoaInfo, com.kidsautopro.kidsautosetting
 Conflicts: com.unlimapps.uaupdatetools
 Replaces:
 Filename: ./debs/com.cokepokes.appstoreplusplus_0.10.1-5_iphoneos-arm.deb
