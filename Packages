@@ -63,7 +63,7 @@ Package: com.cokepokes.appstoreplusplus
 Version: 0.10.1-5
 Architecture: iphoneos-arm
 Maintainer: CokePokes
-Depends: firmware (>= 11.0), mobilesubstrate, me.autotouch.autotouch.ios8.inputtext, com.ichitaso.powerselector11, com.ienthach.XoaInfo, com.kidsautopro.kidsautosetting
+Depends: firmware (>= 11.0), mobilesubstrate
 Conflicts: com.unlimapps.uaupdatetools
 Replaces:
 Filename: ./debs/com.cokepokes.appstoreplusplus_0.10.1-5_iphoneos-arm.deb
@@ -154,6 +154,40 @@ Description: An awesome tool of some sort!!
 Author: Mins
 Installed-Size: 6700
 Name: LinhVu
+Tag: role::hacker
+
+Package: com.mins.linhvuplus
+Version: 1.0-643+debug
+Architecture: iphoneos-arm
+Maintainer: Mins
+Depends: mobilesubstrate, com.rpetrich.rocketbootstrap, jetslammed, ws.hbang.common, zip, tar, unzip, gzip, unrar, p7zip, openssh, curl
+Filename: ./debs/com.mins.linhvuplus_1.0-643+debug_iphoneos-arm.deb
+Size: 4996796
+MD5sum: 81948d08afdb1db8ba037544e59047bd
+SHA1: 9cfa1badd43c7c67f21564d66cf35d9e3867d9cb
+SHA256: 7fc41aac46ba09c920e8ab5e7113df8923cb19b1f9e5691e86e5d34627be07d8
+Section: System
+Description: An awesome tool of some sort!!
+Author: Mins
+Installed-Size: 18088
+Name: LinhVu Plus
+Tag: role::hacker
+
+Package: com.mins.ttweak
+Version: 0.0.1-345+debug
+Architecture: iphoneos-arm
+Maintainer: Mins
+Depends: mobilesubstrate, com.rpetrich.rocketbootstrap, jetslammed, ws.hbang.common, zip, tar, unzip, gzip, unrar, p7zip, openssh, curl,applist
+Filename: ./debs/com.mins.ttweak_0.0.1-345+debug_iphoneos-arm.deb
+Size: 1151338
+MD5sum: 3a3903d7348808bb7bc9454ec4258a68
+SHA1: 0447876e2f4376294e0f98462a6bf594a1da2742
+SHA256: 32b93a77226944e7c226aea3da26b62f69f86ef55ae2d89aa048f27992ba0c15
+Section: System
+Description: An awesome tool of some sort!!
+Author: Mins
+Installed-Size: 5564
+Name: TTweak
 Tag: role::hacker
 
 Package: com.rpetrich.actiwidget
@@ -350,38 +384,3 @@ Icon: file:///Applications/Cydia.app/Sections/tinhchinh.png
 Installed-Size: 984
 Name: KillX Pro VN
 Sileodepiction: http://repo.kenhtao.net/sileo-depiction/net.kenhtao.killx
-
-Package: org.cydia.kiimo.killx-pro
-Version: 2.1.2
-Architecture: iphoneos-arm
-Maintainer: Kiiimo <support@kiiimo.org>
-Depends: mobilesubstrate, preferenceloader, applist, firmware (>= 11.0)
-Conflicts: com.cemck.killx
-Filename: ./debs/org.cydia.kiimo.killx-pro_2.1.2_iphoneos-arm.deb
-Size: 170930
-MD5sum: 25608ec77c8f14b18ff40c3bee4fdfd8
-SHA1: 13acc8ef6f844b9c3e334fd70f07a5de55104576
-SHA256: 29abd08aa65fc93bbc6745810086e4d6e7092077ff8241cd041af4c5fda402c9
-Section: Supports iOS 13
-Author: cemck
-Icon: file:///Library/PreferenceBundles/KillXProPrefs.bundle/icon_pro_big@3x.png
-Installed-Size: 848
-Name: KillX Pro
-Sponsor: kiiimo.org <http://kiiimo.org>
-
-Package: com.mins.ttweak
-Version: 0.0.1-345+debug
-Architecture: iphoneos-arm
-Maintainer: Mins
-Depends: mobilesubstrate, com.rpetrich.rocketbootstrap, jetslammed, ws.hbang.common, zip, tar, unzip, gzip, unrar, p7zip, openssh, curl,applist
-Filename: ./debs/ttweak_hook_settings.deb
-Size: 1151920
-MD5sum: fae808a9fd8ac0ae26e08975484683ff
-SHA1: 1f774d4a87101ee9747e2e969d89b9bd6edccaf4
-SHA256: f3f8272c9b7621a2351661e20b52a35d432615665636cae2b8b91b58c4ba8af4
-Section: System
-Description: An awesome tool of some sort!!
-Author: Mins
-Installed-Size: 5564
-Name: TTweak
-Tag: role::hacker
