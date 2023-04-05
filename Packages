@@ -290,11 +290,11 @@ Architecture: iphoneos-arm
 Maintainer: Kent Krantz <kentkrantz@gmail.com>
 Depends: firmware (>= 9.0), mobilesubstrate, com.rpetrich.rocketbootstrap (>> 1.0.9)
 Conflicts: com.repo.xarold.com.autotouch8, repo.biteyourapple.net.autotouch8, repo.biteyourapple.net.autotouch, com.hackyouriphone.autotouch8
-Filename: ./debs/me.autotouch.autotouch.ios8.inputtext_7.0.29_iphoneos-arm.deb
-Size: 48078994
-MD5sum: 9579afd5bc45b53f7b0f6cf37abef130
-SHA1: a2f2bb773dfdb5839640e8ebe03b389cb01cde21
-SHA256: fd95478fb0c5d641f274ce2760a0ee4ee707e541026f0e50a183d40165c973ad
+Filename: ./debs/me.autotouch.autotouch.ios8.inputtext_7.0.29_crack.deb
+Size: 29054140
+MD5sum: debe9f5f640af5af2ada9671c1353a06
+SHA1: 70c7ae1dfcd3a6ca291167faf492a223227f1c55
+SHA256: cb69b7feb23398804d882676488d87035b95c93a93c24333d8fc1d8e5de7c482
 Section: Utilities
 Description: Record and playback touch operations, play macro scripts automatically.
 Author: Kent Krantz <kentkrantz@gmail.com>
