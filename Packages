@@ -284,6 +284,26 @@ Installed-Size: 100716
 Name: AutoTouch with inputText
 Priority: optional
 
+Package: me.autotouch.autotouch.ios8.inputtext
+Version: 7.0.29
+Architecture: iphoneos-arm
+Maintainer: Kent Krantz <kentkrantz@gmail.com>
+Depends: firmware (>= 9.0), mobilesubstrate, com.rpetrich.rocketbootstrap (>> 1.0.9)
+Conflicts: com.repo.xarold.com.autotouch8, repo.biteyourapple.net.autotouch8, repo.biteyourapple.net.autotouch, com.hackyouriphone.autotouch8
+Filename: ./debs/me.autotouch.autotouch.ios8.inputtext_7.0.29_iphoneos-arm.deb
+Size: 48078994
+MD5sum: 9579afd5bc45b53f7b0f6cf37abef130
+SHA1: a2f2bb773dfdb5839640e8ebe03b389cb01cde21
+SHA256: fd95478fb0c5d641f274ce2760a0ee4ee707e541026f0e50a183d40165c973ad
+Section: Utilities
+Description: Record and playback touch operations, play macro scripts automatically.
+Author: Kent Krantz <kentkrantz@gmail.com>
+Homepage: https://autotouch.net
+Icon: file:///Applications/AutoTouch.app/AppIcon60x60@2x.png
+Installed-Size: 109052
+Name: AutoTouch with inputText
+Priority: optional
+
 Package: net.kenhtao.appdatamanager
 Version: 1.6.1-11
 Architecture: iphoneos-arm
@@ -302,28 +322,6 @@ Icon: file:///Applications/Cydia.app/Sections/tienich.png
 Installed-Size: 9112
 Name: Apps Manager VN
 Sileodepiction: http://repo.kenhtao.net/sileo-depiction/net.kenhtao.appdatamanager
-
-Package: net.kenhtao.autotouch.inputtext
-Version: 7.0.33-1
-Architecture: iphoneos-arm
-Maintainer: Kent Krantz <kentkrantz@gmail.com>
-Depends: firmware (>= 9.0), mobilesubstrate, com.rpetrich.rocketbootstrap (>> 1.0.9)
-Conflicts: net.kenhtao.libat, net.kenhtao.autotouch, com.repo.xarold.com.autotouch8, repo.biteyourapple.net.autotouch8, repo.biteyourapple.net.autotouch, com.hackyouriphone.autotouch8
-Filename: ./debs/net.kenhtao.autotouch.inputtext_7.0.33-1_iphoneos-arm.deb
-Size: 47843354
-MD5sum: 3952d12b3026c4f2d8ebc9aeafb521ae
-SHA1: a722d0eef6405c197de6e1e970e40dbc1914cfa8
-SHA256: 3f4de82568b04bf52fc151351b23e7ba25f45a84297323a6f9efb7d3f91feaea
-Section: Utilities
-Description: AutoClick cho iOS.
-Author: Kent Krantz <kentkrantz@gmail.com>
-Depiction: https://repo.kenhtao.net/view/7824
-Homepage: https://autotouch.net/
-Icon: file:///Applications/Cydia.app/Sections/tienich.png
-Installed-Size: 107052
-Name: AutoTouch with inputText VN
-Priority: optional
-Sileodepiction: http://repo.kenhtao.net/sileo-depiction/net.kenhtao.autotouch.inputtext
 
 Package: net.kenhtao.callblocker
 Version: 2.0.3
